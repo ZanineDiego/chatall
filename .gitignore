@@ -1,0 +1,44 @@
+# ==========================================
+# NODE.JS (api_node)
+# ==========================================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# FLUTTER / DART (app_flutter)
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Arquivos gerados pelo Android/iOS dentro do Flutter
+*.apk
+*.aab
+*.bundle
+app_flutter/android/.gradle/
+app_flutter/android/local.properties
+app_flutter/ios/.generated/
+app_flutter/ios/Flutter/Generated.xcconfig
+app_flutter/ios/Flutter/flutter_export_environment.sh
+
+# ==========================================
+# SISTEMA OPERACIONAL E VS CODE
+# ==========================================
+.DS_Store
+Thumbs.db
+.history/
+.vscode/
+# NOTA: O seu 'chat.code-workspace' NÃO vai ser ignorado, ele vai para o GitHub!
